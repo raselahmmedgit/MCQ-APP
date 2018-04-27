@@ -27,7 +27,7 @@
     {
         public static Message SetSuccessMessage(string currentMessage = "Success !")
         {
-            return new Message { MessageType = MessageType.Success, CurrentMessage = currentMessage,State = 0};
+            return new Message { MessageType = MessageType.Success, CurrentMessage = currentMessage, State = 0};
         }
         public static Message SetErrorMessage(string currentMessage = "Error !")
         {
